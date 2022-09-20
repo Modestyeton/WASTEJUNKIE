@@ -7,20 +7,20 @@
 
 nav {
   width: 100%;
-  margin: auto;
-  height: 20vh;
+  margin-bottom: 2rem;
 }
 
 .navbar {
   width: 80%;
   margin: auto;
   display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   /* background-color: aqua; */
 }
 
 .navbar .logo {
   width: 13%;
-  margin-right: 600px;
 }
 
 .navbar .logo img {
@@ -50,7 +50,6 @@ nav {
 
 .menubar {
   background-color: #468d55;
-  height: 270px;
   display: none;
   flex-direction: column;
   text-align: center;
@@ -91,19 +90,19 @@ nav {
   font-size: 30px;
   color: #468d55;
 }
+
+
+/* BODY DESKTOP */
 .body {
   width: 100%;
-  margin: auto;
   display: flex;
-  height: 70vh;
+ 
 }
-
 .wrap {
   width: 80%;
   margin: auto;
   display: flex;
   gap: 5px;
-  height: 60vh;
 }
 
 .first {
@@ -147,22 +146,25 @@ span {
 .second {
   width: 50%;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .second img {
-  width: 100%;
-  margin: auto;
+  width: 90%;
 }
 
 /* media query */
 @media screen and (max-width: 1000px) {
   .navbar {
-    width: 100%;
-    margin-top: 10px;
+    width: 90%;
+    padding-top: 10px;
+    justify-content: space-between;
+    
   }
   .navbar .logo {
     width: 30%;
-    margin-right: 120px;
+    margin-top: 10px;
   }
 
   .social ul li {
@@ -171,19 +173,23 @@ span {
 
   .menubar {
     display: none;
+    padding: 30px 0;
   }
   #menu {
     display: block;
-    margin-top: -20px;
-    margin-left: 90px;
     font-size: 30px;
+    color: #468d55;
+    position: absolute;
+    top: 30px;
+    right: 20px;
   }
   #close {
     display: none;
-    margin-top: -20px;
-    margin-left: 90px;
-    font-size: 30px;
+    font-size: 35px;
+    color: #468d55;
     position: absolute;
+    top: 25px;
+    right: 20px;
   }
 
   #active {
@@ -195,7 +201,6 @@ span {
 
   .wrap {
     flex-direction: column-reverse;
-    margin-top: 70px;
     width: 90%;
   }
 
@@ -212,15 +217,19 @@ span {
 
   .second {
     width: 100%;
-    /* background-color: #FFC100; */
+    display: flex;
+    justify-content: center;
   }
 
   .second img {
-    width: 60%;
-    margin-left: 60px;
+    width: 70%;
   }
 
   #input {
     padding: 10px 30px;
+  }
+
+  .body{
+    margin-bottom: 80px;
   }
 }
