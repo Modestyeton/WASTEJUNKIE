@@ -150,6 +150,10 @@ margin: auto;
   font-size: 12px;
   }
 
+  #menu{
+    display: block;
+  }
+
 #active{
   padding: 4px 6px;
 }
@@ -160,7 +164,7 @@ margin: auto;
 
 .wrap{
   flex-direction: column-reverse;
-  margin-top: 70px;
+  margin-top: 80px;
   }
 
 .first{
@@ -170,7 +174,7 @@ margin: auto;
 }
 
 .first h1{
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
 }
 
