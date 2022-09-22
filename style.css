@@ -62,11 +62,13 @@ nav {
   list-style: none;
   margin-top: 40px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .menubar ul li a {
   text-decoration: none;
   color: #ffc100;
+  
 }
 
 #activ {
@@ -82,7 +84,10 @@ nav {
   color: white;
   padding: 8px 10px;
   border-radius: 10px;
+  /* margin-top: 20px; */
+
 }
+
 #close {
   display: none;
 }
@@ -114,11 +119,13 @@ nav {
 }
 
 .first h1 {
-  font-size: 60px;
-  color: black;
+  font-size: 40px;
+  color: #468d55;
 }
 span {
-  color: #468d55;
+  color: #ffc100;
+  font-size: 80px;
+  font-weight: 600;
 }
 
 .first p {
@@ -209,9 +216,11 @@ span {
     text-align: center;
     align-content: center;
   }
-
+.first span{
+  font-size: 45px;
+}
   .first h1 {
-    font-size: 38px;
+    font-size: 20px;
     text-align: center;
   }
 
