@@ -49,13 +49,17 @@ nav {
 }
 
 .menubar {
-  background-color: #468d55;
+  background-color: #fff;
   display: none;
   flex-direction: column;
   text-align: center;
   width: 100%;
   position: absolute;
-  color: #fff;
+  color: #468d55;
+}
+
+.menubar h3{
+color: #ffc100;
 }
 
 .menubar ul li {
@@ -67,7 +71,7 @@ nav {
 
 .menubar ul li a {
   text-decoration: none;
-  color: #ffc100;
+  color: #468d55;
   
 }
 
@@ -207,7 +211,7 @@ span {
   }
 
   .wrap {
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 90%;
   }
 
