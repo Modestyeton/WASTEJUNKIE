@@ -53,7 +53,7 @@ nav {
   display: none;
   flex-direction: column;
   text-align: center;
-  width: 100%;
+  width: 50%;
   position: absolute;
   color: #468d55;
 }
@@ -165,6 +165,79 @@ span {
   width: 90%;
 }
 
+
+footer{
+  background-color: #1f4428;
+  
+}
+
+footer .line{
+  border: 1px solid #ffc100;
+  margin-top: 10px;
+}
+
+footer .wrap{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+ padding-top: 50px;
+}
+footer .wrap .logos,
+footer .wrap .contact{
+  width: 50%;
+  /* margin: auto; */
+}
+
+footer .wrap .logos img{
+  width: 30%;
+  margin-left: -15px;
+  margin-bottom: 20px;
+}
+footer .wrap .logos .fa-brands{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+footer .wrap .logos .fa-brands:hover{
+  color: #fff;
+}
+
+footer .wrap .contact a{
+  color: #fff;
+  font-size: 20px;
+  }
+
+  footer .wrap .contact a:hover{
+    color: #ffc100;
+  }
+
+  footer .wrap .contact a i{
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+
+    footer .wrap .contact div{
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    margin-top: 15px;
+    }
+
+    footer .wrap .contact div:hover{
+      color: #ffc100;
+    }
+
+ 
+footer .cp{
+  width: 80%;
+  margin: auto;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
 /* media query */
 @media screen and (max-width: 1000px) {
   .navbar {
@@ -245,4 +318,11 @@ span {
   .body{
     margin-bottom: 80px;
   }
+
+  footer .wrap .logos,
+footer .wrap .contact{
+  width: 100%;
+  margin-bottom: 50px;
+  /* margin: auto; */
+}
 }
